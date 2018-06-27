@@ -1,7 +1,7 @@
 # simple-portfolio-using-hastings-metropolis-python
 
 This project is a spin off of the minimum variance portfolio. this time I have used hastings metropolis in order to find the simple 
-portfolio with the lowest volatility. 
+portfolio with the lowest volatility. To run the code simply download and unzip quotes.zip and download hastings.py wihtin the same folder and run the code. I have also provided a file named StockDataToFile.cpp and a file named folder_creation.py. You don't have to download them or use them to run the code, but I used them in order to get data from Quandl and in order to make the zip file. I used StockDataToFile.cpp to write a txt (named ticker.txt) file containing 753 tickers and to download 753 txt files from quandl containing data for the stock whose tickers are the ticker.txt. I used folder_creation.py to create a new folder named quotes and to randomly select 100 tickers from tickers.txt and to store them in a file named 100tickers.txt, then I copied the 100 txt files associated with the randomly selected tickers and stored them in my newly created folder. 
 
 In order to get the code to run you have to download quotes.zip and unzip the folder. then simply save the file named hastings into the
 folder and run it. The code will ask the user for some input like the number of stocks to sample from, the temperature, and the time. for
