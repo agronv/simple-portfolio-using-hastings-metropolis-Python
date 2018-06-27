@@ -1,4 +1,3 @@
-# cd C:Users\avela\c++\minimum variance
 # folder_creation.py
 
 import os
