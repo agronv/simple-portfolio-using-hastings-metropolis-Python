@@ -1,5 +1,4 @@
 # Agron Velovic
-# cd C:\Users\avela\c++\minmum variance
 # hastings.py
 import numpy as np
 import math
@@ -9,7 +8,7 @@ import random
 def tickerName(size):
 # In this function I am simply taking the name of every stock and putting it into
 # a list
-    file = open("tickers.txt","r")
+    file = open("100tickers.txt","r")
     n = 0
     t = []
     for line in file:
@@ -75,7 +74,7 @@ def Variance(Weights, Cov, total):
 
 
 #################################################################################
-print("How many stocks would you like to choose from (100 eggs): ")
+print("How many stocks would you like to choose from (100 stocks maximum): ")
 size = int(input())
 days = 50
 
