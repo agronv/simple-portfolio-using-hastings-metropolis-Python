@@ -1,9 +1,4 @@
 // Agron Velovic
-// cd C:\Users\avela\Desktop\c++
-// g++ -c -g StockDataToFile.cpp
-/* g++ -g -o StockDataToFile StockDataToFile.o
-  StockDataToFile.exe
-  */
 
 # include <curl/curl.h>
 # include <string>
