@@ -74,7 +74,7 @@ def Variance(Weights, Cov, total):
 
 
 #################################################################################
-print("How many stocks would you like to choose from (100 stocks maximum): ")
+print("How many stocks would you like to use (100 stocks maximum): ")
 size = int(input())
 days = 50
 
@@ -100,7 +100,7 @@ OldVar = E_min
 print("Please enter a temperature: ")
 T = float(input())
 
-print("How long will you like to run this code in seconds: ")
+print("How long will you like to run this code (seconds): ")
 TIME0 = int(input())
 t_end = time.time()+TIME0
 time0 = time.time()
