@@ -3,8 +3,6 @@
 This project is a spin off of the minimum variance portfolio. this time I have used hastings metropolis in order to find the simple 
 portfolio with the lowest volatility. To run the code simply download and unzip quotes.zip and download hastings.py within the same folder and run the code. The codw ill ask the user for some input like number of stocks, temperature, and time. for 100 stocks I recommend a temperature of .001, for a lower number of stocks i would use a higher temperature. I have also provided a file named StockDataToFile.cpp and a file named folder_creation.py. You don't have to use them to run the code, but I used them in order to get data from Quandl and in order to make the zip file. I used StockDataToFile.cpp to write a txt (named ticker.txt) file containing 753 tickers and to download 753 txt files from quandl containing data for the stock whose tickers are the ticker.txt. I used folder_creation.py to create a new folder named quotes and to randomly select 100 tickers from tickers.txt and to store them in a file named 100tickers.txt, then I copied the 100 txt files associated with the randomly selected tickers and stored them in my newly created folder. 
 
-100 stocks I recommend picking a temperature of about .001. The lower the number of stocks the higher the temperature. The code will print
-the time elapsed and the variance at every loop.
 
 The hastings metropolis algorithym is a markov chain monte carlo simulation. it is used when our sample space is too large and it would
 be computationally infeasible to test all possible outcomes. the hastings metropolis algorithm was originally developed for physicist thats
