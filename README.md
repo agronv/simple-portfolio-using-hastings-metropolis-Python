@@ -10,7 +10,7 @@ why it uses terms like energy and temperature, but I found it very useful for th
 sampling from some random distribution and we record some output (energy) from this random sample. Then we find the neighbor of this random
 smaple, if this neighbor has a lower energy then we will move to the neighbor and if this neighbor has a higher energy we will move to it
 if and only if U < e^(-deltaE/T). Let me break down this equation. U is a random number between 0 and 1, deltaE is the change in energy,
-and T is the temperature. the temperature is quite abritrary (my code works best with about .05 temperature). we move to a state with 
+and T is the temperature. the temperature is quite arbitrary (my code works best with about .05 temperature). we move to a state with 
 higher energy with positive porbability because we do not want to get stuck at a local minimum. We keep moving onto a neighboring state 
 until  we are satisfied with the results.
 
